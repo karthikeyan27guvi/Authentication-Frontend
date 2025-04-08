@@ -30,7 +30,7 @@ function Register() {
         }
     
         try {
-          const response = await axios.post("https://authentication-backend-kqu2.onrender.com/api/users/register", {
+          const response = await axios.post("https://authentication-backend-vpip.onrender.com/api/users/register", {
             name: formData.name,
             email: formData.email,
             password: formData.password,
